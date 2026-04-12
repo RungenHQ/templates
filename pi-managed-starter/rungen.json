@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "kind": "agent",
+  "build": {
+    "mode": "preset",
+    "preset": "pi"
+  },
+  "runtime": {
+    "healthcheckPath": "/healthz",
+    "pi": {
+      "packages": []
+    }
+  }
+}
+
